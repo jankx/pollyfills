@@ -1,0 +1,22 @@
+{
+    "name": "jankx/pollyfills",
+    "description": "WordPress polyfill for old WordPress versions",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jankx\\Pollyfills\\": "src/"
+        },
+        "files": [
+            "./loader.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
