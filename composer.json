@@ -1,11 +1,11 @@
 {
-    "name": "jankx/pollyfills",
+    "name": "jankx/polyfills",
     "description": "WordPress polyfill for old WordPress versions",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jankx\\Pollyfills\\": "src/"
+            "Jankx\\Polyfills\\": "src/"
         },
         "files": [
             "./loader.php"
